@@ -13,7 +13,7 @@ function Jewelery({ thing }) {
         const {
           id,
           name,
-          searchTerm,
+
           price,
           image,
           description,

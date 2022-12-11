@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function About() {
   const [info, setInfo] = useState(0);
-  const { id, image } = dataAbout[info];
+  const { image } = dataAbout[info];
 
   const previousInfo = () => {
     setInfo((info) => {
